@@ -4,9 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "dev": "nodemon index.js",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main",
     "lint": "eslint ."
   },
   "keywords": [],
